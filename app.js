@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const db = require("./private/mongoPath").mongoURI;
+const db = require("./private/keys").mongoURI;
 const bodyParser = require("body-parser");
 const passport = require("passport");
 
